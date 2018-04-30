@@ -12,9 +12,11 @@ def line(array)
   end
 end
 
-  
+#counter = 1 # counter is 0
+ 
 def take_a_number(katz_deli, name)
-  katz_deli.push(name)
+   katz_deli.push(name)
+  #counter += 1 # counter is 2
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
